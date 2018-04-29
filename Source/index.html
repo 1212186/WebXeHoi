@@ -277,787 +277,791 @@
 		}
 	</script>
 
-	<link rel="stylesheet" type="text/css" href="assets\bootstrap-3.3.7-dist\css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
 <body>
-<table class="tableMain">
-    <tr>
-        <td class="header" colspan="3"></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-            
-            <!-- MENU BAR !-->
-			<div class="topnav">
-				<a class="active" href="index.html">TRANG CHỦ</a>
-				<a href="#type">LOẠI XE HƠI</a>
-				<a href="#SX">HÃNG SẢN XUẤT</a>
-				<a href="#about">GIỚI THIỆU</a>
-				<a href="#contact">LIÊN HỆ</a>
-				<div class="search-container">
-					<form action="/action_page.php">
-						<input type="text" placeholder="Search.." name="search">
-						<button type="submit" onclick="GotoSearchResult()"><i class="fa fa-search"></i></button>
-					</form>
-				</div>
-			</div>
-        </td>
-    </tr>
-    <tr>
-        <td class="bannerLeft">
-            
-            <!--Car Category!-->
-            <table cellpadding="10" border="1" class="category">
-            <tr>
-                <td class="textBanner">LOẠI XE HƠI</td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Acura</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Ford</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="CarCategory.html" class="text">Land Rover</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Misubishi</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Audi</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Honda</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Chery</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Volvo</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Jaguar</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Nisan</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Suzuki</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">BMW</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Toyota</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                	<a href="CarCategory.html" class="text">Mercedes</a>
-                </td>
-            </tr>
-        </table>
-            
-            
-        </td>
-        <td class="contentPlaceHolder">
-            
-            <!--Content!-->
-            <table width="750px">
+    <table class="tableMain">
+        <tr>
+            <td class="header" colspan="3"></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                
+                <!-- MENU BAR !-->
+    			<div class="topnav">
+    				<a class="active" href="index.html">TRANG CHỦ</a>
+    				<a href="#type">LOẠI XE HƠI</a>
+    				<a href="#SX">HÃNG SẢN XUẤT</a>
+    				<a href="#about">GIỚI THIỆU</a>
+    				<a href="#contact">LIÊN HỆ</a>
+    				<div class="search-container">
+    					<form action="/SearchResult.html">
+    						<input type="text" placeholder="Search.." name="search">
+    						<button type="submit" onclick="GotoSearchResult()"><i class="fa fa-search"></i></button>
+    					</form>
+    				</div>
+    			</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="bannerLeft">
+                
+                <!--Car Category!-->
+                <table cellpadding="10" border="1" class="category">
                 <tr>
-                    <td colspan="2" class="newcardefault">XE MỚI</td>
+                    <td class="textBanner">LOẠI XE HƠI</td>
                 </tr>
                 <tr>
-                    <td class="coldefault">
-        				<!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Audi</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        				
-                    </td>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Audi</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
+                    <td>
+                    	<a href="CarCategory.html" class="text">Acura</a>
                     </td>
                 </tr>
                 <tr>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Audi</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
-                    </td>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Audi</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
+                    <td>
+                    	<a href="CarCategory.html" class="text">Ford</a>
                     </td>
                 </tr>
                 <tr>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Audi</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
-                    </td>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Audi</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
+                    <td>
+                        <a href="CarCategory.html" class="text">Land Rover</a>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="newcardefault">XE ĐƯỢC XEM NHIỀU NHẤT</td>
-                </tr>
-                <tr>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
-                    </td>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
+                    <td>
+                    	<a href="CarCategory.html" class="text">Misubishi</a>
                     </td>
                 </tr>
                 <tr>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
-                    </td>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
+                    <td>
+                    	<a href="CarCategory.html" class="text">Audi</a>
                     </td>
                 </tr>
                 <tr>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
-                    </td>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
+                    <td>
+                    	<a href="CarCategory.html" class="text">Honda</a>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="newcardefault">XE BÁN CHẠY NHẤT</td>
-                </tr>
-                <tr>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
-                    </td>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
+                    <td>
+                    	<a href="CarCategory.html" class="text">Chery</a>
                     </td>
                 </tr>
                 <tr>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
-                    </td>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
+                    <td>
+                    	<a href="CarCategory.html" class="text">Volvo</a>
                     </td>
                 </tr>
                 <tr>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
+                    <td>
+                    	<a href="CarCategory.html" class="text">Jaguar</a>
                     </td>
-                    <td class="coldefault">
-        
-                        <!--Car!-->
-                        <table class="tablecar">
-                            <tr>
-                                <td colspan="3" class="labelcar">Ford</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4" class="picturecar">
-                                    <img src="Image/car1.jpg" width="100px"/>
-                                </td>
-                                <td class="col1car">Mô tả: </td>
-                                <td class="col2car">ABC</td>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="col1car">Giá bán: </td>
-                                <td class="col2car">9000usd</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
-                                </td>
-                            </tr>
-                        </table>
-        
+                </tr>
+                <tr>
+                    <td>
+                    	<a href="CarCategory.html" class="text">Nisan</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    	<a href="CarCategory.html" class="text">Suzuki</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    	<a href="CarCategory.html" class="text">BMW</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    	<a href="CarCategory.html" class="text">Toyota</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    	<a href="CarCategory.html" class="text">Mercedes</a>
                     </td>
                 </tr>
             </table>
+                
+                
+            </td>
+            <td class="contentPlaceHolder">
+                
+                <!--Content!-->
+                <table width="750px">
+                    <tr>
+                        <td colspan="2" class="newcardefault">XE MỚI</td>
+                    </tr>
+                    <tr>
+                        <td class="coldefault">
+            				<!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Audi</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            				
+                        </td>
+                        <td class="coldefault">
             
-        </td>
-        <td class="bannerRight">
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Audi</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
             
-            <!--Login!-->
-            <table cellpadding="10" border="1" class="login">
-                <tr>
-                    <td class="loginLabel" colspan="2">ĐĂNG NHẬP</td>
-                </tr>
-                <tr>
-                    <td class="loginCol">Tên đăng nhập:</td>
-                    <td class="loginTxt">
-                    	<input type="text" width="100%" />
-                    </td>
-                </tr>
-                <tr>
-                    <td class="loginCol">Mật khẩu:</td>
-                    <td class="loginTxt">
-                    	<input type="password" width="100%"  />
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2" class="loginBtn">
-                    	<button type="button" width="100px">Đăng nhập</button>
-                        &nbsp;&nbsp;
-                        <br />
-                        <a href="SignUp.html">Đăng ký</a>
-                    </td>
-                </tr>
-            </table>
-            <br />
-            <br />
-            <!--Cart!-->
-            <table border="1" class="table" cellpadding="10">
-                <tr>
-                    <td colspan="2" class="titile">GIỎ HÀNG</td>
-                </tr>
-                <tr>
-                    <td class="col1">Tổng số sản phẩm</td>
-                    <td class="col2">3</td>
-                </tr>
-                <tr>
-                    <td class="col1">Tổng số tiền</td>
-                    <td class="col2">179.000</td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                    	<button type="button" width="120px" font-weight="bold" onclick="GotoCart()">Giỏ hàng</button>
-                        &nbsp;&nbsp;
-                        <button type="button" width="120px" font-weight="bold" onclick="GotoOrder()">Thanh Toán</button>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td class="auto">&nbsp;</td>
-    </tr>
-    <tr>
-        <td colspan="3" class="footer"></td>
-    </tr>
-</table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Audi</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Audi</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Audi</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Audi</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="newcardefault">XE ĐƯỢC XEM NHIỀU NHẤT</td>
+                    </tr>
+                    <tr>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="newcardefault">XE BÁN CHẠY NHẤT</td>
+                    </tr>
+                    <tr>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                        <td class="coldefault">
+            
+                            <!--Car!-->
+                            <table class="tablecar">
+                                <tr>
+                                    <td colspan="3" class="labelcar">Ford</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4" class="picturecar">
+                                        <img src="Image/car1.jpg" width="100px"/>
+                                    </td>
+                                    <td class="col1car">Mô tả: </td>
+                                    <td class="col2car">ABC</td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1car">Giá bán: </td>
+                                    <td class="col2car">9000usd</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    	<button type="button" class="buttoncar" onclick="GotoCarDetail()">Xem chi tiết</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" class="buttoncar" onclick="GotoCart()">Đặt mua</button>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                        </td>
+                    </tr>
+                </table>
+                
+            </td>
+            <td class="bannerRight">
+                
+                <!--Login!-->
+                <table cellpadding="10" border="1" class="login">
+                    <tr>
+                        <td class="loginLabel" colspan="2">ĐĂNG NHẬP</td>
+                    </tr>
+                    <tr>
+                        <td class="loginCol">Tên đăng nhập:</td>
+                        <td class="loginTxt">
+                        	<input type="text" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="loginCol">Mật khẩu:</td>
+                        <td class="loginTxt">
+                        	<input type="password" width="100%"  />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="loginBtn">
+                        	<button type="button" width="100px">Đăng nhập</button>
+                            &nbsp;&nbsp;
+                            <br />
+                            <a href="SignUp.html">Đăng ký</a>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <br />
+                <!--Cart!-->
+                <table border="1" class="table" cellpadding="10">
+                    <tr>
+                        <td colspan="2" class="titile">GIỎ HÀNG</td>
+                    </tr>
+                    <tr>
+                        <td class="col1">Tổng số sản phẩm</td>
+                        <td class="col2">3</td>
+                    </tr>
+                    <tr>
+                        <td class="col1">Tổng số tiền</td>
+                        <td class="col2">179.000</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        	<button type="button" width="120px" font-weight="bold" onclick="GotoCart()">Giỏ hàng</button>
+                            &nbsp;&nbsp;
+                            <button type="button" width="120px" font-weight="bold" onclick="GotoOrder()">Thanh Toán</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="footer"></td>
+        </tr>
+    </table>
+
+    <script src="assets/jquery-3.1.1.min.js"></script>
+    <script src="assets/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
 
